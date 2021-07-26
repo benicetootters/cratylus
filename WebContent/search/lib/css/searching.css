@@ -1,0 +1,77 @@
+header {
+	background-color: #000;
+	color: #fff;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	border: 1px solid #000;
+	height: 50px;
+}
+
+body {font-family:Nunito}
+
+#crat {
+    display: inline-block;
+    font-size: 1.43rem;
+    font-weight: bold;
+    padding: .4rem;
+    vertical-align: top;
+    border: 0px solid red;
+    margin: 0px;
+}
+
+div.home-quote {
+	font-size: 2rem;
+	color: #ccc;
+	font-style: italic;
+	text-align: center;
+	font-family: serif;
+	clear: both;
+}
+
+div.home-quote span {
+	font-style: normal;
+	font-size: 1.7rem;
+}
+
+td {font-family:Nunito;vertical-align:top;}
+
+.choo {cursor:pointer;color:navy;}
+
+.choo:hover {text-decoration:underline;}
+
+#sidebar {vertical-align:top;width:25%;background-color:#eee;padding:5px;display:inline-block}
+#sidebar input {font-size:1.2rem;}
+    	
+    	
+.blink {
+	animation: blink-animation 1s steps(5, start) infinite;
+	 -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+	  visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+			
+#results {
+	vertical-align:top;
+	width:70%;
+	padding:5px;
+	display:inline-block;
+}
+
+#pre {
+	position:absolute;
+	top:200px;
+	left:25%;
+	width:70%;
+	display:none;
+	text-align:center;
+	color:red;
+}
